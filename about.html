@@ -1,46 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <header class="site-header">
-  <div class="container nav">
-    <a class="brand" href="index.html">BLOG <small>Lengyel Mihály</small></a>
-    <ul class="nav-list">
-      <li><a href="index.html">Home</a></li>
-      <li><a class="active" href="about.html">About</a></li>
-      <li><a href="gallery.html">Gallery</a></li>
-      <li><a href="cv.html">CV</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </div>
-</header>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">BLOG <small>Lengyel Mihály</small></a>
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
 
-<section class="banner">
-  <div class="container banner-inner">
-    <h1>About Me</h1>
-    <p class="lead">Aspiring full-stack developer with a passion for learning and sharing knowledge.</p>
-  </div>
-</section>
+  <section class="banner">
+    <div class="container banner-inner">
+      <h1>About Me</h1>
+      <p class="lead">Aspiring full-stack developer with a passion for learning and sharing knowledge.</p>
+    </div>
+  </section>
 
-<main class="container">
-  <article class="content-card">
-    <h2>Software, Education, and Growth</h2>
-    <p>Im a software developer student at the IMC Krems interested in modern web and desktop technologies. This page collects my ideas, projects, and experiences as I progress through my studies and side projects.</p>
-    <p>Topics I focus on include React, .NET, WPF, SQL, testing, and cybersecurity basics.</p>
-  </article>
-  <article class="content-card">
-    <h2>Growth</h2>
-    <p>I am a goal-oriented and enthusiastic programmer with a passion for information technology, always striving to find solutions to new challenges. During my studies, I gained in-depth knowledge in programming and IT systems. I communicate well, work efficiently in teams, and can also handle complex tasks independently. I continuously improve my skills, and my goal is to contribute to technological advancement through innovative solutions throughout my professional career.</p>
-  </article>
-</main>
+  <main class="container">
+    <article class="content-card">
+      <h1>About Me</h1>
+      <p>
+        My name is <strong>Mihály Lengyel</strong>, and Im a student from Sopron, Hungary.
+        I’ve been passionate about the world of IT since childhood. Ever since I got my first computer,
+        I’ve been fascinated by how games, websites, and different applications work that curiosity
+        inspired me to start programming.
+      </p>
 
-<footer class="site-footer">
-  <div class="container"><p>&copy; 2025 Lengyel Mihály</p></div>
-</footer>
+      <p>
+        Today, I actively engage with technology both in and outside of school, continuously improving my
+        skills in software and web development. My goal is to build a successful career in this field,
+        create meaningful projects, and contribute to the growth of the IT industry.
+      </p>
+
+      <p>
+        Im currently studying at the <strong>The IMC Krems</strong> in Krems,
+        working toward a BSc degree in <strong>Informatics</strong>.
+        Alongside my studies, I work part-time at <strong>Cinema City Sopron</strong> as an
+        manager, where Im gaining teamwork and communication experience.
+      </p>
+
+    </article>
+
+    <article class="content-card">
+      <h2>Software, Education, and Growth</h2>
+      <p>This page collects my ideas, projects, and experiences as I progress through my studies and side projects.</p>
+      <p>Topics I focus on include React, .NET, WPF, SQL, testing, and cybersecurity basics.</p>
+    </article>
+    <article class="content-card">
+      <section class="container section">
+        <h2 class="section-title" style="text-align:center;">My Skills</h2>
+        <p class="muted" style="text-align:center;">
+          A selection of the technologies and tools I work with during my projects and studies.
+        </p>
+
+        <div class="skills-wrapper">
+          <div class="skill-category">
+            <h3>🎨 Frontend</h3>
+            <ul>
+              <li>React</li>
+              <li>JavaScript</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Tailwind CSS</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3>⚙️ Backend</h3>
+            <ul>
+              <li>ASP.NET Core (C#)</li>
+              <li>Express.js</li>
+              <li>Python</li>
+              <li>Java</li>
+              <li>C / C++</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3>🖥 Desktop & Cross-Platform</h3>
+            <ul>
+              <li>WPF</li>
+              <li>WinUI</li>
+              <li>.NET MAUI</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3>🧰 Tools & Collaboration</h3>
+            <ul>
+              <li>Git & GitHub</li>
+              <li>Jira</li>
+              <li>Visual Studio / VS Code</li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+      <section class="container section interests">
+        <h2 class="section-title">Beyond Coding</h2>
+        <div class="interest-grid">
+          <article class="interest-card">
+            <img src="images/scott-graham-5fNmWej4tAA-unsplash.jpg" alt="Music" class="interest-img">
+            <div class="interest-body">
+              <h3>🎵 Making Music</h3>
+              <p>I enjoy composing electronic music and exploring sound design as a creative hobby.</p>
+            </div>
+          </article>
+          <article class="interest-card">
+            <img src="images/Képernyőkép 2025-10-29 124324.png" alt="Gaming" class="interest-img">
+            <div class="interest-body">
+              <h3>🎮 Gaming</h3>
+              <p>Gaming helps me relax and often inspires me to build better, more immersive applications.</p>
+            </div>
+          </article>
+          <article class="interest-card">
+            <img src="images/part.jpg" alt="Travel" class="interest-img">
+            <div class="interest-body">
+              <h3>✈️ Traveling</h3>
+              <p>I love discovering new places and cultures it keeps me motivated and open-minded.</p>
+            </div>
+          </article>
+          <article class="interest-card">
+            <img src="images/ninja.jpg" alt="Motorcycling" class="interest-img">
+            <div class="interest-body">
+              <h3>🏍️ Motorcycling</h3>
+              <p>Riding gives me a sense of freedom and focus. I enjoy exploring new roads, meeting other riders, and
+                discovering new places on two wheels.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Lengyel Mihály</p>
+    </div>
+  </footer>
 </body>
+
 </html>
